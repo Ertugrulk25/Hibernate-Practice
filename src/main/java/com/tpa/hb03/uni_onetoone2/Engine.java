@@ -14,6 +14,7 @@ public class Engine {
     private int power;
 
     @OneToOne
+    @JoinColumn(name = "car_id",unique = true)
     private Car car;
 
     public Engine() {

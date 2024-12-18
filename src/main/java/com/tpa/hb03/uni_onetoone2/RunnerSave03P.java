@@ -16,7 +16,7 @@ public class RunnerSave03P {
 
     Engine engine1 = new Engine(100,"Iveco",300);
     Engine engine2 = new Engine(101,"Rolls Royce",300);
-    Engine engine3 = new Engine(102,"Lamborgini",300);
+    Engine engine3 = new Engine(102,"Lamborghini",300);
     Engine engine4 = new Engine(103,"Tofaş",300);
 
     engine1.setCar(car1);
